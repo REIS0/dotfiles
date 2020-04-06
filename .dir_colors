@@ -34,7 +34,7 @@
 # COLOR needs one of these arguments: 'tty' colorizes output to ttys, but not
 # pipes. 'all' adds color characters to all output. 'none' shuts colorization
 # off.
-COLOR tty
+COLOR all
 
 # Below, there should be one TERM entry for each termtype that is colorizable
 TERM alacritty
@@ -180,13 +180,13 @@ ORPHAN  05;37;41
 MISSING 05;37;41
 
 # files with execute permission
-EXEC 01;32  # Unix
-.cmd 01;32  # Win
-.exe 01;32  # Win
-.com 01;32  # Win
-.bat 01;32  # Win
-.reg 01;32  # Win
-.app 01;32  # OSX
+EXEC 01;37;42 # Unix
+.cmd 01;37;42  # Win
+.exe 01;37;42  # Win
+.com 01;37;42  # Win
+.bat 01;37;42  # Win
+.reg 01;37;42  # Win
+.app 01;37;42  # OSX
 
 #############################################################################
 ### By extension
@@ -371,7 +371,7 @@ EXEC 01;32  # Unix
 .psd 31
 
 # Archives, compressed
-.7z   1;35
+.7z   1;37;44
 .apk  1;31
 .arj  1;35
 .bin  1;31
@@ -385,19 +385,19 @@ EXEC 01;32  # Unix
 .iso  1;37
 .jar  1;35
 .msi  1;31  # Win
-.rar  1;35
+.rar  1;37;44
 .rpm  1;31
-.tar  1;35
+.tar  1;37;44
 .tbz  1;35
 .tbz2 1;35
-.tgz  1;35
+.tgz  1;37;44
 .tx   1;35
 .war  1;35
 .xpi  1;35
 .xz   1;35
 .z    1;35
 .Z    1;35
-.zip  1;35
+.zip  1;37;44
 
 # For testing
 .ANSI-30-black 30

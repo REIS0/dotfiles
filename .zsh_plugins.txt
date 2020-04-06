@@ -1,0 +1,5 @@
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-autosuggestions
+
+# Theme
+romkatv/powerlevel10k
