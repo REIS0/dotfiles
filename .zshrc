@@ -17,11 +17,12 @@ antigen theme romkatv/powerlevel10k
 
 antigen apply
 
+
+# Dircolors
+eval `dircolors .dir_colors`
+
 # Completion
-autoload -Uz compinit
-compinit
-zstyle ':completion:*' menu select
-setopt COMPLETE_ALIASES
+source completion.zsh
 
 # Python path
 export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
@@ -29,11 +30,10 @@ export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 # Rust path
 export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
-# Dircolors
-eval `dircolors .dir_colors`
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # alias
 alias ls='ls --color'
+
