@@ -37,4 +37,5 @@ export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local
 
 # alias
 alias ls='ls --color'
+alias la='ls -a'
 alias zshconfig='vim $HOME/.zshrc'
