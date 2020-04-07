@@ -1,0 +1,12 @@
+add_newline = true
+
+[character]
+symbol = ""
+
+[directory]
+truncate_lenght = 10
+truncate_to_repo = false
+style = "bold blue"
+
+[git_status]
+modified_count = true
