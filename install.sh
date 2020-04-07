@@ -5,6 +5,9 @@
 sudo apt install zsh 
 chsh -s $(which zsh)
 
+# install vim
+sudo apt install vim
+
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env

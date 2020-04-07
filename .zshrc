@@ -1,4 +1,9 @@
-source $HOME/.zsh_plugins.sh
+# Vars
+HISTFILE=~/.zsh_history
+
+# Antibody
+source <(antibody init)
+antibody bundle < ~/.zsh_plugins.txt
 
 # Dircolors
 eval `dircolors $HOME/.dir_colors`
