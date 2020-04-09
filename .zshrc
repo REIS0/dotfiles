@@ -1,5 +1,9 @@
 # Vars
+HISTSIZE=1000
+HISTFILESIZE=1000
+SAVEHIST=1000
 HISTFILE=~/.zsh_history
+
 
 # Antibody
 source <(antibody init)
