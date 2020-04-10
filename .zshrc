@@ -6,6 +6,8 @@ HISTFILESIZE=2000
 HISTFILE=~/.zsh_history
 # set history options
 setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_SPACE
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_SAVE_NO_DUPS
 
@@ -28,9 +30,9 @@ export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 # Rust path
 export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
-# alias
+# Aliases
 alias ls='ls --color'
 alias la='ls -a'
 alias grep='grep --color'
-alias zshconf='vim $HOME/.zshrc'
+alias czsh='vim $HOME/.zshrc'
 alias rzsh='source $HOME/.zshrc'
