@@ -5,9 +5,9 @@ SAVEHIST=1000
 HISTFILESIZE=2000
 HISTFILE=~/.zsh_history
 # set history options
-set APPEND_HISTORY
-set HIST_EXPIRE_DUPS_FIRST
-set HIST_SAVE_NO_DUPS
+setopt APPEND_HISTORY
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_SAVE_NO_DUPS
 
 # Antibody
 source <(antibody init)
