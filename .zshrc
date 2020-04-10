@@ -1,9 +1,13 @@
-# Vars
+# History
+HISTCONTROL=ignoreboth
 HISTSIZE=1000
-HISTFILESIZE=1000
 SAVEHIST=1000
+HISTFILESIZE=2000
 HISTFILE=~/.zsh_history
-
+# set history options
+set APPEND_HISTORY
+set HIST_EXPIRE_DUPS_FIRST
+set HIST_SAVE_NO_DUPS
 
 # Antibody
 source <(antibody init)
