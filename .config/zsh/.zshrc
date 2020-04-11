@@ -13,16 +13,16 @@ setopt HIST_SAVE_NO_DUPS
 
 # Antibody
 source <(antibody init)
-antibody bundle < ~/.zsh_plugins.txt
+antibody bundle < ~/.config/zsh/.zsh_plugins.txt
 
 # Dircolors
-eval `dircolors $HOME/.dir_colors`
+eval `dircolors $HOME/.config/.dir_colors`
 
 # Theme
 eval "$(starship init zsh)"
 
 # Completion
-source $HOME/completion.zsh
+source $HOME/.config/zsh/completion.zsh
 
 # Python path
 export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
@@ -36,5 +36,5 @@ export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local
 # alias la='ls -a'
 alias l='lsd -a'
 alias grep='grep --color'
-alias czsh='vim $HOME/.zshrc'
-alias rzsh='source $HOME/.zshrc'
+alias czsh='vim $HOME/.config/zsh/.zshrc'
+alias rzsh='source $HOME/.config/zsh/.zshrc'
