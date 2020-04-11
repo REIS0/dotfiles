@@ -16,7 +16,7 @@ source <(antibody init)
 antibody bundle < ~/.config/zsh/.zsh_plugins.txt
 
 # Dircolors
-eval `dircolors $HOME/.config/.dir_colors`
+eval `dircolors $HOME/.config/zsh/.dir_colors`
 
 # Theme
 eval "$(starship init zsh)"
