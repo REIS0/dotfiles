@@ -18,4 +18,7 @@ curl -sfL git.io/antibody | sh -s - -b /usr/local/bin
 # install starship
 curl -fsSL https://starship.rs/install.sh | zsh
 
+# install ls-deluxe
+cargo install lsd
+
 echo "Restart terminal and it's done."

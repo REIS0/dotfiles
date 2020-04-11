@@ -31,8 +31,10 @@ export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 # Aliases
-alias ls='ls --color'
-alias la='ls -a'
+# alias ls='lsd'
+# alias ls='ls --color'
+# alias la='ls -a'
+alias l='lsd -a'
 alias grep='grep --color'
 alias czsh='vim $HOME/.zshrc'
 alias rzsh='source $HOME/.zshrc'
