@@ -11,6 +11,9 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_SAVE_NO_DUPS
 
+# Auto cd
+setopt autocd
+
 # Antibody
 source <(antibody init)
 antibody bundle < ~/.config/zsh/.zsh_plugins.txt
