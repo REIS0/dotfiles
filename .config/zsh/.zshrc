@@ -15,14 +15,14 @@ setopt HIST_SAVE_NO_DUPS
 setopt autocd
 
 # Antibody
-source <(antibody init)
-antibody bundle < ~/.config/zsh/.zsh_plugins.txt
+#source <(antibody init)
+#antibody bundle < ~/.config/zsh/.zsh_plugins.txt
 
 # Dircolors
 eval `dircolors $HOME/.config/zsh/.dir_colors`
 
 # Theme
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 # Completion
 source $HOME/.config/zsh/completion.zsh
@@ -31,7 +31,7 @@ source $HOME/.config/zsh/completion.zsh
 export PATH="/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 # Rust path
-export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+#export PATH="/home/arthur/.cargo/bin:/home/arthur/.cargo/bin:/home/arthur/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 # Aliases
 # alias ls='lsd'
