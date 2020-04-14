@@ -9,9 +9,6 @@
 sudo apt install fish vim -y
 chsh -s $(which fish)
 
-# install vim
-sudo apt install vim -y
-
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
