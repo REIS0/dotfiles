@@ -421,6 +421,8 @@ key_bindings:
   - { key: Down,     mods: Control|Alt,   action: None             }
   - { key: Right,    mods: Control|Alt,   action: None             }
   - { key: Left,     mods: Control|Alt,   action: None             }
+  - { key: U,        mods: Control,   	  action: ScrollPageUp     }
+  - { key: D,        mods: Control,   	  action: ScrollPageDown   }
 
   # (Windows only)
   #- { key: Return,   mods: Alt,           action: ToggleFullscreen }
