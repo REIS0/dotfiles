@@ -5,8 +5,8 @@
 #sudo apt install zsh vim -y
 #chsh -s $(which zsh)
 
-# install fish and vim
-sudo apt install fish vim -y
+# install fish, vim, fzf
+sudo apt install fish vim fzf -y
 chsh -s $(which fish)
 
 # install rust
