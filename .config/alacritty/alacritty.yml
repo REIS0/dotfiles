@@ -103,7 +103,7 @@
 font: 
  # Normal (roman) font face
  normal:
-   family: MesloLGS NF
+   family: MesloLGS NF 
    style: Regular
  size: 12.0
 
