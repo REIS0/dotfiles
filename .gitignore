@@ -1,0 +1,12 @@
+# ignore all other files
+*
+
+# files to not ignore
+!.gitignore
+!.config
+!.fonts
+!scripts
+!.vimrc
+!.zshenv
+!README.md
+!install.sh
