@@ -4,6 +4,12 @@
 # files to not ignore
 !.gitignore
 !.config
+!.config/alacritty
+!.config/fish
+!.config/dunst
+!.config/i3
+!.config/polybar
+!.config/zsh
 !.fonts
 !scripts
 !.vimrc
