@@ -1,6 +1,6 @@
 # Dotfiles
 
-These are my config files, some of them I don't use anymore but I like to keep them.
+These are my config files, some I don't use anymore but I like to keep them.
 
 ### How to use them
 
