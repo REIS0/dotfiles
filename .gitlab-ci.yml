@@ -1,7 +1,9 @@
 image: "ubuntu:rolling"
 
 before_script:
-    - apt install sudo
+    - apt-get update
+    - apt-get upgrade -y
+    - apt-get -y install sudo
 
 test:
     script:
