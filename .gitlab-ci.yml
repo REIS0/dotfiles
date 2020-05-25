@@ -3,7 +3,7 @@ image: "ubuntu:rolling"
 before_script:
     - apt-get update
     - apt-get upgrade -y
-    - apt-get -y install sudo
+    - apt-get -y install sudo curl
 
 test:
     script:
