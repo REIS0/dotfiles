@@ -1,5 +1,8 @@
 image: "ubuntu:rolling"
 
+before_script:
+    - apt install sudo
+
 test:
     script:
         - . scripts/install.sh
