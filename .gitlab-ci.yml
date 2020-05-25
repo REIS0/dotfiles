@@ -1,0 +1,5 @@
+image: "ubuntu:rolling"
+
+test:
+    script:
+        - . scripts/install.sh
