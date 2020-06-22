@@ -141,7 +141,7 @@ font:
 #     cyan:    '0x56b6c2'
 #     white:   '0xffffff'
 
-# Colors (Pop theme)
+# Colors (Pop theme) https://www.reddit.com/r/pop_os/comments/hc49sq/in_case_anyone_wanted_pop_os_alacritty_theme/
 colors:
   # Default colors
   primary:
