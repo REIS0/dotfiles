@@ -1,5 +1,7 @@
 fundle plugin 'oh-my-fish/theme-bobthefish'
 fundle plugin 'jethrokuan/fzf'
+fundle plugin 'edc/bass'
+fundle plugin 'FabioAntunes/fish-nvm'
 
 fundle init
 

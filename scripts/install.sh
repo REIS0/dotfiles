@@ -9,6 +9,9 @@
 sudo apt install fish vim fzf trash-cli alacritty -y
 chsh -s $(which fish)
 
+# install nvm (i hate this)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
 # init fish
 fish
 fundle install
@@ -16,6 +19,7 @@ fundle install
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
+
 
 # install antibody
 #curl -sfL git.io/antibody | sh -s - -b /usr/local/bin
