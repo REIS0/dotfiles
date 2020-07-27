@@ -9,6 +9,10 @@
 sudo apt install fish vim fzf trash-cli alacritty -y
 chsh -s $(which fish)
 
+# init fish
+fish
+fundle install
+
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env

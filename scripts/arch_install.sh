@@ -20,6 +20,10 @@ yay -S i3 alacritty rofi xorg-xrandr dunst polybar-git thunar thunar-volman feh 
 # set login shell
 chsh -s $(which fish)
 
+# init fish shell
+fish
+fundle install
+
 # install rust
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
