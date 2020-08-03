@@ -28,7 +28,10 @@ source $HOME/.cargo/env
 #curl -fsSL https://starship.rs/install.sh | zsh
 
 # install ls-deluxe
+cargo install kiro-editor
+cargo install bat
 cargo install lsd
+cargo install ripgrep
 
 echo "Restart terminal and it's done."
 echo "For Rust you need to logout and login again."
