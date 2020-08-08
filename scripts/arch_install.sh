@@ -35,7 +35,6 @@ source $HOME/.cargo/env
 cargo install lsd
 cargo install ripgrep
 cargo install bat
-cargo install kiro-editor
 
 echo "Reboot? [y/n]"
 

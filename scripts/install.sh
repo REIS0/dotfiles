@@ -28,7 +28,6 @@ source $HOME/.cargo/env
 #curl -fsSL https://starship.rs/install.sh | zsh
 
 # install ls-deluxe
-cargo install kiro-editor
 cargo install bat
 cargo install lsd
 cargo install ripgrep
