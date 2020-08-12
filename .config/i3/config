@@ -42,10 +42,10 @@ floating_modifier $mod
 
 # start a terminal (change to your terminal)
 # bindsym $mod+Return exec i3-sensible-terminal (default)
-bindsym $mod+Return exec alacritty
+bindsym $mod+t exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
@@ -210,13 +210,13 @@ exec --no-startup-id megasync
 for_window [class=".*"] border pixel 0
 
 # Gaps
-#gaps inner 5
-#gaps outer 1
+gaps inner 1
+gaps outer 1
 
 # Only enable gaps on a workspace when there is at least one container
-#smart_gaps on
+smart_gaps on
 
-# open dolphin file manager (change if using another file manager)
+# open thunar file manager (change if using another file manager)
 bindsym $mod+e exec thunar
 
 # open rofi windows
