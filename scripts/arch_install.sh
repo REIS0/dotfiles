@@ -15,7 +15,7 @@ yay -S lightdm lightdm-gtk-greeter
 sudo systemctl enable lightdm.service
 
 # install other stuff that I use
-yay -S i3 alacritty rofi xorg-xrandr dunst polybar-git thunar thunar-volman feh fish trash-cli xcursor-neutral
+yay -S i3 alacritty rofi xorg-xrandr dunst polybar-git thunar thunar-volman feh fish trash-cli xcursor-neutral nnn
 
 # install nvm (i hate this)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash

@@ -6,7 +6,7 @@
 #chsh -s $(which zsh)
 
 # install fish, vim, fzf
-sudo apt install fish vim fzf trash-cli alacritty -y
+sudo apt install fish vim fzf trash-cli alacritty nnn -y
 chsh -s $(which fish)
 
 # install nvm (i hate this)
