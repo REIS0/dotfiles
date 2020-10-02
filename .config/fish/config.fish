@@ -3,6 +3,7 @@ fundle plugin 'oh-my-fish/theme-bobthefish'
 fundle plugin 'patrickf3139/fzf.fish'
 fundle plugin 'edc/bass'
 fundle plugin 'FabioAntunes/fish-nvm'
+fundle plugin 'nickeb96/puffer-fish'
 
 fundle init
 
