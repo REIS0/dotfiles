@@ -4,6 +4,7 @@ fundle plugin 'jethrokuan/fzf'
 fundle plugin 'edc/bass'
 fundle plugin 'FabioAntunes/fish-nvm'
 fundle plugin 'nickeb96/puffer-fish'
+fundle plugin 'wfxr/forgit'
 
 fundle init
 
