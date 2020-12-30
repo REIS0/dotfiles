@@ -31,6 +31,7 @@ source $HOME/.cargo/env
 cargo install bat
 cargo install lsd
 cargo install ripgrep
+cargo install tealdeer
 
 echo "Restart terminal and it's done."
 echo "For Rust you need to logout and login again."
