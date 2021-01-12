@@ -19,3 +19,6 @@ set confirm
 
 " Set highlight for search command
 set hlsearch
+
+" Set new command for exiting insert mode
+imap <C-L> <Esc>
