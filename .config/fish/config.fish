@@ -22,3 +22,4 @@ alias py='python'
 alias pip='pip3'
 alias cpuhi='echo -n performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
 alias cpulo='echo -n ondemand | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
+alias codium="/usr/share/codium/bin/codium"
