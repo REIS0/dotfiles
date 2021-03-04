@@ -6,7 +6,7 @@
 #chsh -s $(which zsh)
 
 # install fish, vim, fzf
-sudo apt install fish vim fzf trash-cli alacritty -y
+sudo apt install fish vim fzf trash-cli -y
 chsh -s $(which fish)
 
 # install nvm (i hate this)
@@ -32,6 +32,8 @@ cargo install bat
 cargo install lsd
 cargo install ripgrep
 cargo install tealdeer
+# check for alacritty in distro repo, or install via cargo
+sudo apt install alacritty || echo "Installing from cargo"; cargo install alacritty
 
 echo "Restart terminal and it's done."
 echo "For Rust you need to logout and login again."
