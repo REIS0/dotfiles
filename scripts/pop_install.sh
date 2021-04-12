@@ -1,4 +1,4 @@
-#!bin/sh
+#!bin/bash
 
 # install zsh and vim
 # my main use is ubuntu based, just change for your distro
@@ -6,7 +6,7 @@
 #chsh -s $(which zsh)
 
 # install fish, vim, fzf
-sudo apt install fish vim fzf trash-cli -y
+sudo apt install fish vim fzf trash-cli alacritty -y
 chsh -s $(which fish)
 
 # install nvm (i hate this)
@@ -28,12 +28,10 @@ source $HOME/.cargo/env
 #curl -fsSL https://starship.rs/install.sh | zsh
 
 # install ls-deluxe
-cargo install bat
-cargo install lsd
-cargo install ripgrep
-cargo install tealdeer
-# check for alacritty in distro repo, or install via cargo
-sudo apt install alacritty || echo "Installing from cargo"; cargo install alacritty
+cargo install bat || echo "bat installation failed"
+cargo install lsd || echo "lsd installation failed"
+cargo install ripgrep || echo "ripgrep installation failed"
+cargo install tealdeer || echo "tealdeer installation failed"
 
 echo "Restart terminal and it's done."
 echo "For Rust you need to logout and login again."
