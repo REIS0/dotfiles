@@ -1,14 +1,14 @@
 fundle plugin 'oh-my-fish/theme-bobthefish'
 #fundle plugin 'jethrokuan/fzf'
 fundle plugin 'patrickf3139/fzf.fish'
-fundle plugin 'edc/bass'
-fundle plugin 'FabioAntunes/fish-nvm'
+#fundle plugin 'edc/bass'
+#fundle plugin 'FabioAntunes/fish-nvm'
 fundle plugin 'nickeb96/puffer-fish'
 fundle plugin 'wfxr/forgit'
 
 fundle init
 
-alias ls='lsd'
+alias ls='exa --icons --group-directories-first'
 alias l='ls -a'
 alias c='clear'
 #alias mv='mv -i'
@@ -22,4 +22,3 @@ alias py='python'
 alias pip='pip3'
 alias cpuhi='echo -n performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
 alias cpulo='echo -n ondemand | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
-alias codium="/usr/share/codium/bin/codium"
