@@ -22,6 +22,3 @@ set hlsearch
 
 " Set new command for exiting insert mode
 imap <C-L> <Esc>
-
-" Use system clipboard
-set clipboard^=unnamed,unnamedplus
