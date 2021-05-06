@@ -8,7 +8,7 @@ fundle plugin 'wfxr/forgit'
 
 fundle init
 
-alias ls='exa --icons --group-directories-first'
+alias ls='LS_COLORS=" " exa --icons --group-directories-first'
 alias l='ls -a'
 alias c='clear'
 #alias mv='mv -i'
