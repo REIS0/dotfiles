@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# !! out of date, I'm not using arch distros at all 
+
 # NEED GIT
 
 # must install packages
