@@ -4,7 +4,7 @@
 #! NOT TESTED YET
 
 # install fish, vim, fzf
-sudo zypper install fish vim fzf tealdeer ripgrep exa bat alacritty alacritty-fish-completion -y
+sudo zypper install -y fish vim fzf tealdeer ripgrep exa bat alacritty alacritty-fish-completion
 chsh -s $(which fish)
 
 # install fish pluginsapt installapt install
