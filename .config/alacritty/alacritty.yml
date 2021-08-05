@@ -103,7 +103,7 @@
 font: 
  # Normal (roman) font face
  normal:
-   family: Cousine NF #MesloLGS NF 
+   family: FiraCode Nerd Font Mono #Cousine NF #MesloLGS NF 
    style: Regular
  size: 13.0
 
