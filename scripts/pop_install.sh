@@ -3,7 +3,7 @@
 # Pop_OS! LTS
 
 # install fish, vim, fzf
-sudo apt install fish vim fzf bat ripgrep trash-cli alacritty -y
+sudo apt install fish vim fzf bat ripgrep exa trash-cli alacritty -y
 chsh -s $(which fish)
 
 # install fish plugins 
@@ -13,7 +13,6 @@ fish -c "fundle install"
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 
-cargo install exa || echo "exa installation failed"
 # install tealdeer dependency
 sudo apt install libssl-dev
 cargo install tealdeer || echo "tealdeer installation failed"
