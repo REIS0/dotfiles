@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Pop_OS! LTS
+# Pop_OS! 
 
 # install fish, vim, fzf
 sudo apt install fish vim fzf bat ripgrep exa trash-cli alacritty -y
