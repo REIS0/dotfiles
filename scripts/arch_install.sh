@@ -1,43 +1,23 @@
 #!/bin/bash
 
-# !! out of date, I'm not using arch distros at all 
+# * MADE TO USE WITH ARCH LINUX CALAMARES INSTALL
+# * NEED GIT
 
-# NEED GIT
-
-# must install packages
-sudo pacman -S xorg xorg-xinit xdg-user-dirs 
-
-# install yay
-git clone https://aur.archlinux.org/yay.git
-cd yay
+# install paru
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
+cd
 
-# install display manager
-#yay -S lightdm lightdm-gtk-greeter
-#sudo systemctl enable lightdm.service
+# install packages, set options as you like
+sudo pacman -S gnome vim fish fzf bat ripgrep tealdeer exa trash-cli alacritty 
 
-# install other stuff that I use
-#yay -S i3 alacritty rofi xorg-xrandr dunst polybar-git thunar thunar-volman feh fish trash-cli xcursor-neutral nnn
-yay -S gnome alacritty xorg-xrandr fish trash-cli 
-
-# install nvm (i hate this)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-
-# set login shell
+# set fish shell as default
 chsh -s $(which fish)
+fish -c "fundle install"
 
-# init fish shell
-fish
-fundle install
-
-# install rust
-curl https://sh.rustup.rs -sSf | sh
-source $HOME/.cargo/env
-
-# install aditional stuff using cargo
-cargo install lsd
-cargo install ripgrep
-cargo install bat
+# minor configuration
+echo "" | sudo tee /etc/motd
 
 echo "Reboot? [y/n]"
 
