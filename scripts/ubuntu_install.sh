@@ -3,7 +3,7 @@
 # Ubuntu LTS
 
 # install fish, vim, fzf, etc
-sudo apt install fish vim fzf trash-cli curl gcc bat ripgrep tldr exa -y
+sudo apt install fish vim fzf trash-cli curl gcc bat ripgrep tldr exa fd-find -y
 chsh -s $(which fish)
 
 # install fish plugins 

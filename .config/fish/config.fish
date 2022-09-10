@@ -1,9 +1,8 @@
 if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
+
 fundle plugin 'oh-my-fish/theme-bobthefish'
-fundle plugin 'jethrokuan/fzf'
-#fundle plugin 'patrickf3139/fzf.fish'
-#fundle plugin 'edc/bass'
-#fundle plugin 'FabioAntunes/fish-nvm'
+#fundle plugin 'jethrokuan/fzf'
+fundle plugin 'patrickf3139/fzf.fish'
 fundle plugin 'nickeb96/puffer-fish'
 fundle plugin 'wfxr/forgit'
 
@@ -16,7 +15,8 @@ alias c='clear'
 #alias cp='cp -i'
 #alias rm='echo "use trash-put"'
 alias bat='batcat'
-alias tp='trash-put'
+alias fd='fdfind'
+alias tp='trash-put -v'
 alias cfish='vim $HOME/.config/fish/config.fish'
 alias rfish='exec fish'
 alias python='python3'
@@ -26,3 +26,6 @@ alias cpuhi='echo -n performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq
 alias cpulo='echo -n ondemand | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
 alias startdocker='sudo systemctl start docker.service docker.socket'
 alias stopdocker='sudo systemctl stop docker.service docker.socket'
+
+# fzf
+set fzf_fd_opts --no-ignore

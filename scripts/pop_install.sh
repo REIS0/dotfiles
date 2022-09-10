@@ -3,7 +3,7 @@
 # Pop_OS! 
 
 # install fish, vim, fzf
-sudo apt install fish vim fzf bat ripgrep exa trash-cli tldr -y
+sudo apt install fish vim fzf bat ripgrep exa trash-cli tldr fd-find -y
 chsh -s $(which fish)
 
 # install fish plugins 
