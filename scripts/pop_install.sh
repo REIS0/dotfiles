@@ -11,3 +11,6 @@ fish -c "fundle install"
 
 # update tldr database
 tldr -u
+
+# create local fish file
+touch $HOME/.config/fish/local.fish

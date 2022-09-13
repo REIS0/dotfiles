@@ -18,6 +18,7 @@ alias bat='batcat'
 alias fd='fdfind'
 alias tp='trash-put -v'
 alias cfish='vim $HOME/.config/fish/config.fish'
+alias lfish='vim $HOME/.config/fish/local.fish'
 alias rfish='exec fish'
 alias python='python3'
 alias py='python'
@@ -29,3 +30,6 @@ alias stopdocker='sudo systemctl stop docker.service docker.socket'
 
 # fzf
 set fzf_fd_opts --no-ignore
+
+# file used for local configs that don't need to be saved
+source /home/arthur/.config/fish/local.fish
