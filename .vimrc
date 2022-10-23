@@ -3,6 +3,7 @@ syntax enable
 filetype plugin indent on
 set autoindent " take indent for new line from previous line
 set laststatus=2
+set timeoutlen=500 " set timeout for keymaps (500ms)
 
 " Use visual bell instead of beeping when doing something wrong
 set visualbell
@@ -26,7 +27,7 @@ imap <C-L> <Esc>
 " Set new command for exiting insert mode
 vmap <C-L> <Esc>
 
-" Set new command for existing normal mode
+" Set new command for normal mode
 nmap py "0p 
 nmap Py "0P
 
