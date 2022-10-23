@@ -23,9 +23,10 @@ set hlsearch
 " Set new command for exiting insert mode
 imap <C-L> <Esc>
 
-" Set new command for existind normal mode
-nmap <C-S-P> "0p 
-nmap <C-S-O> "0P
-
 " Set new command for exiting insert mode
 vmap <C-L> <Esc>
+
+" Set new command for existing normal mode
+nmap py "0p 
+nmap Py "0P
+
