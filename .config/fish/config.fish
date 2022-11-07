@@ -32,4 +32,4 @@ alias stopdocker='sudo systemctl stop docker.service docker.socket'
 set fzf_fd_opts --no-ignore
 
 # file used for local configs that don't need to be saved
-source /home/arthur/.config/fish/local.fish
+source $HOME/.config/fish/local.fish
