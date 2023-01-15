@@ -35,3 +35,6 @@ set fzf_fd_opts --no-ignore
 
 # file used for local configs that don't need to be saved
 source $HOME/.config/fish/local.fish
+
+# set command color
+set -U fish_color_command green
