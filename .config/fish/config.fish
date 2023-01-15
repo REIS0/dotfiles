@@ -1,13 +1,3 @@
-if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
-
-fundle plugin 'oh-my-fish/theme-bobthefish'
-#fundle plugin 'jethrokuan/fzf'
-fundle plugin 'patrickf3139/fzf.fish'
-fundle plugin 'nickeb96/puffer-fish'
-fundle plugin 'wfxr/forgit'
-
-fundle init
-
 alias ls='exa --icons --group-directories-first'
 alias l='ls -a'
 alias c='clear'
@@ -38,3 +28,9 @@ source $HOME/.config/fish/local.fish
 
 # set command color
 set -U fish_color_command green
+
+# check if fisher is installed
+if not type -q fisher
+    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+    fisher update
+end
