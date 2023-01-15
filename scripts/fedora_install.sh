@@ -3,7 +3,7 @@
 # Fedora latest release
 
 # install fish, vim, fzf
-sudo dnf install -y util-linux-user fish vim fzf tealdeer ripgrep exa bat fd-find
+sudo dnf install -y util-linux-user fish vim fzf tealdeer ripgrep exa bat fd-find trash-cli
 chsh -s $(which fish)
 
 # install fish pluginsapt installapt install
