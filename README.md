@@ -9,7 +9,7 @@ You have to do these commands in your home folder (also known as `~` folder)
 ```
 git init
 git remote add origin https://gitlab.com/REIS0/dotfiles.git
-git pull origin master
+git pull origin main
 . scripts/[linux distro]_install.sh
 ```
 
