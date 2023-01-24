@@ -17,4 +17,4 @@ With this is expected to install everything needed, if you have any trouble just
 
 ### Attention!
 
-The script for arch linux is very outdated, I'm only updating `pop_install.sh` since is my main distro in all of my computers.
+Some scripts may be outdated since I have not used some distros for a long time.
