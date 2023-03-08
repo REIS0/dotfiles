@@ -16,6 +16,7 @@ alias cpuhi='echo -n performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq
 alias cpulo='echo -n ondemand | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
 alias startdocker='sudo systemctl start docker.service docker.socket'
 alias stopdocker='sudo systemctl stop docker.service docker.socket'
+
 if not type -q bat
    alias bat='batcat'
 end
@@ -34,3 +35,5 @@ if not type -q fisher
     curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
     fisher update
 end
+
+zoxide init fish | source
