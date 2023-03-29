@@ -11,3 +11,7 @@ fish -c "fundle install"
 
 # create local fish file
 touch $HOME/.config/fish/local.fish
+
+# create template files for gnome
+touch $HOME/Templates/New Document.txt
+touch $HOME/Templates/New Document.md
