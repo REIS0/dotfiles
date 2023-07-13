@@ -1,4 +1,4 @@
-alias ls='exa --icons --group-directories-first'
+alias ls='exa --group-directories-first'
 alias l='ls -a'
 alias c='clear'
 #alias mv='mv -i'
@@ -29,7 +29,7 @@ source $HOME/.config/fish/local.fish
 
 # set command color
 set -U fish_color_command green
-set -U hydro_color_git brred
+set -U hydro_color_git brcyan
 set -U hydro_color_duration brblue
 
 # check if fisher is installed
