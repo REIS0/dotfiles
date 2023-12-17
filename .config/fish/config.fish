@@ -1,9 +1,6 @@
 alias ls='exa --group-directories-first'
-alias l='ls -a'
+alias l='ls'
 alias c='clear'
-#alias mv='mv -i'
-#alias cp='cp -i'
-#alias rm='echo "use trash-put"'
 alias fd='fdfind'
 alias tp='trash-put -v'
 alias cfish='vim $HOME/.config/fish/config.fish'
@@ -38,4 +35,3 @@ if not type -q fisher
     fisher update
 end
 
-zoxide init fish | source
