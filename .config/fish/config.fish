@@ -28,10 +28,3 @@ source $HOME/.config/fish/local.fish
 set -U fish_color_command green
 set -U hydro_color_git brcyan
 set -U hydro_color_duration brblue
-
-# check if fisher is installed
-if not type -q fisher
-    curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-    fisher update
-end
-
